@@ -1,0 +1,14 @@
+Travail a rendre Ayoub Azacri
+
+Option All -Indexes
+
+RewriteEngine On 
+
+RewriteBase /gestion-etudiants/
+
+RewriteRule ^([-a-zA-Z0-9]+)$ index.php?page=$1
+
+RewriteRule ^(.+)$ index.php?page=$1 [QSA,L]
+
+
+AXdEznrCHzD8lSGEu9nwbVN3P-_OUs6zzGspQzCpBlzz1Q4DTZQHxrB4Zp3hryMoRwHeV9adaXZVDiuy
